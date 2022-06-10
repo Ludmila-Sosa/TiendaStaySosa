@@ -1,0 +1,59 @@
+/*Estilos generales*/
+.navbar{
+    background-color: #ef9ca4;
+}
+
+.cards{
+    background-color: #dcf7f3;
+    border: 2px solid white ;
+}
+
+.cardsContenedor{
+    gap: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+/*Estilos Index*/
+
+.productosmv{
+    background-color: #a18093;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    align-items: center;
+}
+
+.productostitle{
+    color: white;
+    display: flex;
+    font-weight: bolder;
+}
+
+/*Estilos Productos*/
+.carrusel{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*Estilos Contacto*/
+.contactanos{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.consulta{
+    background-color: #a18093;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    align-items: center;
+}
+
+.consultatitle{
+    color: white;
+    display: flex;
+    font-weight: bolder;
+}

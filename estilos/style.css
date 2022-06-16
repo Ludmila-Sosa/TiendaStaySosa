@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.preguntas {
+  background-color: #a18093;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.preguntas ul li {
+  color: white;
+}
+.preguntas ul li h2 {
+  font-size: larger;
+}
+.preguntas ul li p {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.hero {
+  background-color: #f6e5cb;
+  height: 100px;
+}
+.hero div h1 {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  justify-content: center;
+  display: flex;
+  padding-top: 10px;
+}
+
+.navbar {
+  background-color: #ef9ca4;
+}
+
+.cards {
+  background-color: #dcf7f3;
+  border: 2px solid white;
+}
+
+.cardsContenedor {
+  gap: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+/*Estilos Index*/
+.productosmv {
+  background-color: #a18093;
+  display: flex;
+  justify-content: center;
+  height: 150px;
+  align-items: center;
+}
+
+.productostitle {
+  color: white;
+  display: flex;
+  font-weight: bolder;
+}
+
+/*Estilos Productos*/
+.carrusel {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/*Estilos Contacto*/
+.contactanos {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.consulta {
+  background-color: #a18093;
+  display: flex;
+  justify-content: center;
+  height: 150px;
+  align-items: center;
+}
+
+.consultatitle {
+  color: white;
+  display: flex;
+  font-weight: bolder;
+}/*# sourceMappingURL=style.css.map */

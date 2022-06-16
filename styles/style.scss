@@ -1,4 +1,12 @@
-/*Estilos generales*/
+@import "variables";
+@import "preguntas";
+@import "titulo";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .navbar{
     background-color: #ef9ca4;
 }

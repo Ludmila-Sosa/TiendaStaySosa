@@ -1,0 +1,19 @@
+.preguntas {
+  background-color: $color;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  ul {
+    li {
+      color: $a;
+
+      h2 {
+        font-size: larger;
+      }
+
+      p {
+        font-family: 'Times New Roman', Times, serif;
+      }
+    }
+  }
+}

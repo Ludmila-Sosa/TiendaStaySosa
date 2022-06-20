@@ -1,6 +1,7 @@
 @import "variables";
 @import "preguntas";
 @import "titulo";
+@import "operaciones";
 
 *{
     margin: 0;
@@ -30,6 +31,14 @@
     justify-content: center;
     height: 150px;
     align-items: center;
+}
+
+.tituloprin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #a18093;
 }
 
 .productostitle{
@@ -64,4 +73,12 @@
     color: white;
     display: flex;
     font-weight: bolder;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }

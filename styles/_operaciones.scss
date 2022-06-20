@@ -1,0 +1,59 @@
+/*Mapas*/
+$redes: (
+    facebook: #0b2e59,
+    instagram: #6e1e62,
+    twitter: #8ac7de,
+);
+@each $red, $color in $redes {
+    .btn-#{$red}{
+        background-color: $color;
+    }
+    
+}
+
+/*Extend*/
+.redSocial{
+    border: 2px solid black;
+    background-color: #fb7991;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social1{
+    @extend .redSocial;
+    font-family:'Times New Roman', Times, serif ;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.social2{
+    @extend .redSocial;
+    font-family:'Times New Roman', Times, serif ;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.social3{
+    @extend .redSocial;
+    font-family:'Times New Roman', Times, serif ;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+/*Mixin*/
+@mixin sizes ($width, $heigth){
+    height: $heigth;
+    width: $width;
+}
+
+.my_mixin{
+    @include sizes(250px,100px);
+    background-color: #b380cc;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
